@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "looks-same": "^7.3.0",
-    "odiff-bin": "^2.3.1",
+    "odiff-bin": "^2.4.0",
     "pngjs": "^6.0.0"
   }
 }
