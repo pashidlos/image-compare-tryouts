@@ -3,10 +3,12 @@ const {getImagePath} = require("./utils");
 
 (async () => {
   const result = await odiff.compare(
-    getImagePath("baseline.png"),
-    getImagePath("screenshot.png"),
+    getImagePath("diffLayout1.png"),
+    getImagePath("diffLayout2.png"),
     getImagePath("diff.png"),
-    null
+    {
+      failOnLayoutDiff: true
+    }
   );
 
   console.log(result);
